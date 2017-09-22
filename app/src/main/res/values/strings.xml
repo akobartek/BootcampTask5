@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BootcampTask5</string>
+
+    <string name="data_label">Data</string>
+    <string name="data_text">20.08.2017</string>
+    <string name="category_label">Kategoria</string>
+    <string name="category_text">Natura</string>
+    <string name="author_label">Autor</string>
+    <string name="author_text">Jan Kowalski</string>
+    <string name="description_label">Opis</string>
+    <string name="description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>
