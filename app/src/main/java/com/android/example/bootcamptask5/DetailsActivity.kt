@@ -32,5 +32,12 @@ class DetailsActivity : AppCompatActivity() {
                 .into(itemDetailsImage)
 
         collapsingToolbarLayout.title = intent.getStringExtra("imageDescription")
+
+
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }
