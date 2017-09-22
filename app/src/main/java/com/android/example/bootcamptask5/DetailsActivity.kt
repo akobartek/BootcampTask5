@@ -24,6 +24,8 @@ class DetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
         setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
 
         Picasso.with(this)
                 .load(intent.getStringExtra("imageAddress"))
