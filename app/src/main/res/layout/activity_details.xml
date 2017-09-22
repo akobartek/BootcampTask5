@@ -15,7 +15,8 @@
             android:id="@+id/collapsingToolbarLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:titleTextColor="@android:color/white">
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:id="@+id/itemDetailsImage"
@@ -31,7 +32,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 app:layout_collapseMode="pin"
-                app:layout_scrollFlags="scroll|enterAlways"
                 app:titleTextColor="@android:color/white" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
@@ -225,11 +225,12 @@
 
             <TextView
                 android:id="@+id/descriptionText"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="@string/description_text"
                 android:textColor="#FFFFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
                 app:layout_constraintTop_toBottomOf="@+id/descriptionLabel" />
 
